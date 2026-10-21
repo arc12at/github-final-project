@@ -6,7 +6,7 @@ Thank you for taking the time to help improve this project! Please read the [Cod
 
 ## Ways to Contribute
 
-- **Report a bug:** open an [issue](https://github.com/arc12at/simple-interest-calculator/issues) describing what happened, what you expected, the steps to reproduce it, and your browser/OS.
+- **Report a bug:** open an [issue](https://github.com/arc12at/github-final-project/issues) describing what happened, what you expected, the steps to reproduce it, and your browser/OS.
 - **Suggest an idea or enhancement:** open an issue explaining the feature and why it would be useful.
 - **Fix a bug or add a feature:** submit a pull request (see below).
 - **Improve documentation:** fixes to the README, comments, or typos are always appreciated.
@@ -16,8 +16,8 @@ Thank you for taking the time to help improve this project! Please read the [Cod
 1. **Fork** this repository.
 2. **Clone** your fork:
    ```bash
-   git clone https://github.com/<your-username>/simple-interest-calculator.git
-   cd simple-interest-calculator
+   git clone https://github.com/<your-username>/github-final-project.git
+   cd github-final-project
    ```
 3. **Create a branch** for your change:
    ```bash

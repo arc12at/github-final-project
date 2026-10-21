@@ -33,7 +33,7 @@ Months are converted as `T = months / 12` and days as `T = days / 365`.
 ## Project Structure
 
 ```
-simple-interest-calculator/
+github-final-project/
 ├── index.html   # Page structure
 ├── style.css    # Styling (light/dark themes)
 ├── script.js    # Calculation and validation logic
@@ -48,8 +48,8 @@ simple-interest-calculator/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/arc12at/simple-interest-calculator.git
-   cd simple-interest-calculator
+   git clone https://github.com/arc12at/github-final-project.git
+   cd github-final-project
    ```
 2. Open `index.html` in any modern browser.
 
@@ -84,7 +84,7 @@ To host it for free:
 
 1. Go to the repository's **Settings → Pages**.
 2. Under **Source**, select the `main` branch and `/ (root)` folder.
-3. Save — your site will be live at `https://arc12at.github.io/simple-interest-calculator/`.
+3. Save — your site will be live at `https://arc12at.github.io/github-final-project/`.
 
 ## Tech Stack
 
