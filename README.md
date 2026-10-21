@@ -37,6 +37,7 @@ simple-interest-calculator/
 ├── index.html   # Page structure
 ├── style.css    # Styling (light/dark themes)
 ├── script.js    # Calculation and validation logic
+├── simple-interest.sh  # Command-line (Bash) version
 ├── LICENSE      # Apache License 2.0
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
@@ -54,6 +55,29 @@ simple-interest-calculator/
 
 That's it — no installation required.
 
+## Command-Line Version (Bash)
+
+`simple-interest.sh` is a terminal version of the calculator. It asks for the principal, rate of interest and time period, then prints the simple interest and total amount.
+
+```bash
+chmod +x simple-interest.sh   # first time only
+./simple-interest.sh          # interactive: enter each value when asked
+./simple-interest.sh 10000 7.5 3   # or pass P, R, T directly
+```
+
+Sample output:
+
+```
+Principal       : ₹10000.00
+Rate            : 7.5% per year
+Time Period     : 3 year(s)
+-----------------------------------
+Simple Interest : ₹2250.00
+Total Amount    : ₹12250.00
+```
+
+Invalid inputs (letters, negative numbers) are rejected with a message.
+
 ## Live Demo (GitHub Pages)
 
 To host it for free:
@@ -67,6 +91,7 @@ To host it for free:
 - HTML5
 - CSS3 (custom properties, flexbox, media queries)
 - Vanilla JavaScript (ES6)
+- Bash (command-line version)
 
 ## Contributing
 
