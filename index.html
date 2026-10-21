@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Interest Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <header>
+      <span class="badge">₹ Finance Tool</span>
+      <h1>Simple Interest Calculator</h1>
+      <p class="subtitle">SI = (P × R × T) / 100</p>
+    </header>
+
+    <form id="si-form" novalidate>
+      <label for="principal">Principal Amount (₹)</label>
+      <input type="number" id="principal" placeholder="e.g. 10000" min="0" step="any" required />
+
+      <label for="rate">Rate of Interest (% per year)</label>
+      <input type="number" id="rate" placeholder="e.g. 7.5" min="0" step="any" required />
+
+      <label for="time">Time Period</label>
+      <div class="row">
+        <input type="number" id="time" placeholder="e.g. 3" min="0" step="any" required />
+        <select id="unit">
+          <option value="years">Years</option>
+          <option value="months">Months</option>
+          <option value="days">Days</option>
+        </select>
+      </div>
+
+      <p id="error" class="error" role="alert"></p>
+
+      <div class="buttons">
+        <button type="submit" class="primary">Calculate</button>
+        <button type="button" id="reset" class="secondary">Reset</button>
+      </div>
+    </form>
+
+    <section id="result" class="result hidden" aria-live="polite">
+      <div class="stat">
+        <span>Principal</span>
+        <strong id="out-principal">₹0</strong>
+      </div>
+      <div class="stat">
+        <span>Simple Interest</span>
+        <strong id="out-interest" class="accent">₹0</strong>
+      </div>
+      <div class="stat total">
+        <span>Total Amount</span>
+        <strong id="out-total">₹0</strong>
+      </div>
+      <div class="bar" title="Principal vs Interest">
+        <div id="bar-principal" class="bar-p"></div>
+        <div id="bar-interest" class="bar-i"></div>
+      </div>
+      <p class="legend"><span class="dot p"></span>Principal <span class="dot i"></span>Interest</p>
+    </section>
+  </main>
+
+  <footer>Made with HTML, CSS &amp; JavaScript</footer>
+  <script src="script.js"></script>
+</body>
+</html>
