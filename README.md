@@ -38,6 +38,8 @@ simple-interest-calculator/
 ├── style.css    # Styling (light/dark themes)
 ├── script.js    # Calculation and validation logic
 ├── LICENSE      # Apache License 2.0
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
 └── README.md
 ```
 
@@ -45,7 +47,7 @@ simple-interest-calculator/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/simple-interest-calculator.git
+   git clone https://github.com/arc12at/simple-interest-calculator.git
    cd simple-interest-calculator
    ```
 2. Open `index.html` in any modern browser.
@@ -58,13 +60,21 @@ To host it for free:
 
 1. Go to the repository's **Settings → Pages**.
 2. Under **Source**, select the `main` branch and `/ (root)` folder.
-3. Save — your site will be live at `https://<your-username>.github.io/simple-interest-calculator/`.
+3. Save — your site will be live at `https://arc12at.github.io/simple-interest-calculator/`.
 
 ## Tech Stack
 
 - HTML5
 - CSS3 (custom properties, flexbox, media queries)
 - Vanilla JavaScript (ES6)
+
+## Contributing
+
+All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+## Code of Conduct
+
+Please read the [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
 
 ## License
 
