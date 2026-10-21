@@ -37,6 +37,7 @@ simple-interest-calculator/
 ├── index.html   # Page structure
 ├── style.css    # Styling (light/dark themes)
 ├── script.js    # Calculation and validation logic
+├── LICENSE      # Apache License 2.0
 └── README.md
 ```
 
@@ -67,4 +68,4 @@ To host it for free:
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the [Apache License 2.0](LICENSE).
